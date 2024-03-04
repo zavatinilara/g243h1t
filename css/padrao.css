@@ -1,12 +1,13 @@
 .barra {
     width: 100%;
     height: 100px;
-    background-color: rgb(125, 178, 247);
+    background-color: rgb(255, 179, 192);
     text-align: center;
 }
-.dispositivo{
+.mobile {
     font-size: 70px;
     color: whitesmoke;
+    text-align: center;
 }
 
 @media (min-width: 800px) {
@@ -14,15 +15,46 @@
         height: 150px;
         background-color: rgb(255, 179, 192);
     }
-    #dispositivo {
+    #mobile {
         display: none;
     }
 }
-@media (min-width: 1228px){
+.tablet{
+    display: none;
+}
+.desktop{
+    display: none;
+
+}
     .barra{
-        height: 200px;
+        height: 150px;
         background-color: rgb(158, 101, 158);
     }
+    .mobile{
+        display: none;
+    }
+    .tablet{
+        display: inline;
+        font-size: 70px;
+        color:rgb(125, 247, 241);
+        text-align: center;
+    }
+
+
+@media (min-width: 1228px) {
+    .barra{
+        height: 150px;
+        background-color: rgb(158, 101, 158);
+    }
+    .tablet{
+        display: none;
+    }
+    .desktop{
+        display: inline;
+        font-size: 80px;
+        color:rgb(125, 247, 241);
+        text-align: center;
+    }  
 }
 .rodape{
     text-align: center;
