@@ -1,61 +1,87 @@
 .barra {
     width: 100%;
     height: 100px;
-    background-color: rgb(255, 179, 192);
-    text-align: center;
-}
-.mobile {
-    font-size: 70px;
-    color: whitesmoke;
+    background-color: rgb(152, 136, 205);
     text-align: center;
 }
 
-@media (min-width: 800px) {
-    .barra{
-        height: 150px;
-        background-color: rgb(255, 179, 192);
-    }
-    #mobile {
-        display: none;
-    }
+.mobile{
+    font-size: 60px;
+    color: rgb(230, 140, 234);
+    text-align: center;
 }
 .tablet{
     display: none;
 }
 .desktop{
     display: none;
-
 }
+.conteudo{
+    width: 100%;
+    background-color: rgb(150, 206, 255);
+}
+.botoes{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(72, 254, 254);
+    font-size: 28px;
+    padding-top: 2px;
+    padding-bottom: 4px;
+}
+.aba1 {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(136, 255, 213);
+    display: none;
+}
+.aba2 {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(136, 255, 213);
+    display: none;
+}
+.aba3 {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(136, 255, 213);
+    display: none;
+}
+.aba4 {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(136, 255, 213);
+    display: none;
+}
+@media (min-width: 800px) {
     .barra{
         height: 150px;
-        background-color: rgb(158, 101, 158);
+        background-color: rgb(161, 216, 253);
     }
-    .mobile{
+    .mobile {
         display: none;
     }
-    .tablet{
+    .tablet {
+        display: inline;
+        font-size: 30px;
+        color: rgb(114, 107, 215);
+    }
+    .botoes{
+        width: 24.7%;
+    }
+}
+
+@media (min-width: 1228px){
+    .barra {
+        height: 200px;
+        background-color: rgb(46, 237, 244);
+    }
+    #tablet {
+        display: none;
+    }
+    #desktop {
         display: inline;
         font-size: 70px;
-        color:rgb(125, 247, 241);
-        text-align: center;
+        color: rgb(254, 146, 186);
+        text-align: center; 
     }
-
-
-@media (min-width: 1228px) {
-    .barra{
-        height: 150px;
-        background-color: rgb(158, 101, 158);
-    }
-    .tablet{
-        display: none;
-    }
-    .desktop{
-        display: inline;
-        font-size: 80px;
-        color:rgb(125, 247, 241);
-        text-align: center;
-    }  
-}
-.rodape{
-    text-align: center;
 }
