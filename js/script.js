@@ -1,5 +1,11 @@
 imprime = (msg) => console.log(msg);
-
+const data = new Date();
+function hora_atual(){
+    setTimeout(() =>{    
+   document.getElementById("h").innerHTML = data.getHours() + ":" + data.getMinutes() + ":" + data.getSeconds();
+   hora_atual();
+  }, 1000);
+}
 fazerSorteio = ()  => {
     let num1 = document.getElementById("inicio").value;
     let num2 = document.getElementById("fim").value;
@@ -11,10 +17,10 @@ fazerSorteio = ()  => {
 function escolher_aba(btn){
     for(let i = 1; i <= 4; i++){
         let id_btn = "btn"+i;
-        let id_aba = "aba"+i;
+        let id_aba = "ab"+i;
         document.getElementById(id_btn).style.backgroundColor = "aqua";
         document.getElementById(id_btn).disabled = false;
-        document.getElementsById(id_aba).style.display = "none";
+        document.getElementById(id_aba).style.display = "none";
     }
     if(btn == "1"){
         document.getElementById("btn1").style.backgroundColor = "aquamarine";
