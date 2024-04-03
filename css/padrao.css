@@ -18,12 +18,12 @@
 }
 .conteudo{
     width: 100%;
-    background-color: rgb(196, 232, 255);
+    background-color: rgb(147, 213, 255);
 }
 .botoes{
     width: 100%;
     height: 30px;
-    background-color: rgb(115, 197, 255);
+    background-color: rgb(222, 115, 255);
     font-size: 28px;
     padding-top: 2px;
     padding-bottom: 4px;
@@ -34,21 +34,21 @@
     display: none;
 }
 .aba1 {
-    background-color: rgb(255, 175, 175);
+    background-color: rgb(195, 149, 255);
 }
 .aba2 {
-    background-color: rgb(255, 106, 106);
+    background-color: rgb(140, 131, 255);
 }
 .aba3 {
-    background-color: rgb(245, 236, 102);
+    background-color: rgb(121, 179, 255);
 }
 .aba4 {
-    background-color: rgb(243, 237, 184);
+    background-color: rgb(71, 149, 252);
 }
 @media (min-width: 800px) {
     .barra{
         height: 150px;
-        background-color: rgb(161, 216, 253);
+        background-color: rgb(65, 173, 245);
     }
     .mobile {
         display: none;
@@ -56,7 +56,7 @@
     .tablet {
         display: inline;
         font-size: 30px;
-        color: rgb(5, 0, 80);
+        color: rgb(99, 46, 168);
     }
     
 }
@@ -64,7 +64,7 @@
 @media (min-width: 1228px){
     .barra {
         height: 200px;
-        background-color: cadetblue;
+        background-color: rgb(230, 200, 255);
     }
     #tablet {
         display: none;
@@ -72,7 +72,7 @@
     #desktop {
         display: inline;
         font-size: 70px;
-        color: rgb(155, 221, 229);
+        color: rgb(0, 255, 128);
         text-align: center; 
     }
 }
